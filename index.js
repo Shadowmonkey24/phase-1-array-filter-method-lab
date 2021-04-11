@@ -2,7 +2,7 @@
 const findMatching = (drivers,search) => {
     return drivers.filter((driver) => {
       return driver.toLowerCase() === search.toLowerCase()
-    });
+    })
   };
   
   const fuzzyMatch = (drivers,letters) => {
